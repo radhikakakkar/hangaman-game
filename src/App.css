@@ -1,0 +1,99 @@
+body {
+  /* height: 100px !important; */
+  overflow: hidden;
+  background: rgb(14, 17, 58);
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.game-container {
+  margin-left: 0;
+}
+.figure-container {
+  fill: white;
+  stroke: yellowgreen;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.wrong-letters-container {
+  top: 20%;
+  height: 5%;
+  right: 10%;
+  position: absolute;
+  width: 20%;
+}
+.wrong-letters-container p {
+  font-size: 25px;
+}
+.wrong-letters-container span {
+  font-size: 20px;
+  color: yellowgreen;
+}
+.word-container {
+  height: 90px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.letter {
+  border-bottom: 3px solid white;
+  padding: 3px;
+  width: 29px;
+  margin: 0px 10px;
+  display: inline-flex;
+  font-size: 30px;
+}
+
+.notification-container {
+  
+  background: #e5f0c5;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+  height: 50px;
+  width: 35%;
+  border-radius: 10px;
+  /* left: 30%;
+  right: 50%; */
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+  position: absolute;
+  transition: transform 0.5s;
+  bottom: -500px !important;
+  margin-bottom: 30px;
+  
+}
+
+.show {
+  display: block;
+  transform: translateY(-500px);
+  
+}
+.popup-container {
+  background-color: white;
+  color: black;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  width: 20%;
+  height: 30%;
+  left: 40%;
+  border: 13px dotted yellowgreen;
+}
+.play-button {
+  font-size: 14px;
+  font-weight: bold;
+  background: yellowgreen;
+  border: none;
+  color: white;
+  height: 30px;
+  padding: 5px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 7px;
+  box-shadow: 10px 10px 10px grey;
+}
